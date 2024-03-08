@@ -126,8 +126,6 @@ text-align: center;
     position: relative;
     color:#004ba8;
 font-size: 2em;
-top: 150px;
-left: 10px;
 }
 
 .conteudo .icones i{margin: 50px;}
@@ -212,18 +210,6 @@ animation: foto 3s alternate infinite ease-in-out ;}
 
 .foto:hover{animation-play-state: paused;}
 
-
-@keyframes foto{
-    0%{
-    transform: rotateX(0deg);
-}
-
-100%{ transform: rotateX(360deg);
-box-shadow: 0px 0px 10px #3e78b2, 0px 0px 30px #3e78b2,0px 0px 40px #3e78b2,0px 0px 50px #3e78b2;
-
-}
-
-}
 
 .ferramentas{display: flex;
 justify-content: center;
@@ -435,6 +421,26 @@ footer ul li a{font-size:2em;}
 
     header{display: none;}
 
+
+}
+
+
+
+
+
+
+
+
+
+@keyframes foto{
+    0%{
+    transform: rotateX(0deg);
+}
+
+100%{ transform: rotateX(360deg);
+box-shadow: 0px 0px 10px #3e78b2, 0px 0px 30px #3e78b2,0px 0px 40px #3e78b2,0px 0px 50px #3e78b2;
+
+}
 
 }
 
